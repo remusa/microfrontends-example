@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 
-import { Shell } from "ui";
-import { TopNumber } from "./TopNumber";
+import { Shell } from 'ui';
+import { TopNumber } from 'games';
 
 function App() {
   return (
-    <Shell title="Top Number">
+    <Shell title='Top Number'>
       <TopNumber />
     </Shell>
   );
