@@ -1,10 +1,9 @@
-import { Button } from "ui";
+import { Shell } from 'ui'
 
-export default function Web() {
+export default function Docs() {
   return (
-    <div>
-      <h1>Web</h1>
-      <Button />
-    </div>
-  );
+    <Shell title='Web'>
+      <h1>Docs</h1>
+    </Shell>
+  )
 }
